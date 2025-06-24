@@ -15,10 +15,10 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Help docs",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "New to Dovetail",
             "pages": [
               "index",
               "quickstart",
@@ -26,7 +26,7 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Channels",
             "pages": [
               "essentials/markdown",
               "essentials/code",
