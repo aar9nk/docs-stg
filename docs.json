@@ -44,7 +44,7 @@
           {
             "group": "Import data",
             "pages": [
-              "emilyzone/emile"
+              "integrations/emile"
             ]
           }
         ]
