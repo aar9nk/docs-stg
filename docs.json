@@ -39,10 +39,10 @@
         ]
       },
       {
-        "tab": "Emily zone",
+        "tab": "Integrations",
         "groups": [
           {
-            "group": "Help docs",
+            "group": "Import data",
             "pages": [
               "emilyzone/emile"
             ]
