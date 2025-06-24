@@ -1,93 +1,128 @@
 {
-    "$schema": "https://mintlify.com/docs.json",
-    "theme": "mint",
-    "name": "Mint Starter Kit",
-    "colors": {
-        "primary": "#16A34A",
-        "light": "#07C983",
-        "dark": "#15803D"
-    },
-    "favicon": "/favicon.svg",
-    "navigation": {
-        "tabs": [
-            {
-                "tab": "Guides",
-                "groups": [
-                    {
-                        "group": "Get Started",
-                        "pages": [
-                            "index",
-                            "quickstart",
-                            "development"
-                        ]
-                    },
-                    {
-                        "group": "Essentials",
-                        "pages": [
-                            "essentials/markdown",
-                            "essentials/code",
-                            "essentials/images",
-                            "essentials/settings",
-                            "essentials/navigation",
-                            "essentials/reusable-snippets"
-                        ]
-                    }
-                ]
-            },
-            {
-                "tab": "Emily zone",
-                "groups": [
-                    {
-                        "group": "in the zone",
-                        "pages": [
-                            "emilyzone/emile"
-                        ]
-                    }
-                ]
-            }
-        ],
-        "global": {
-            "anchors": [
-                {
-                    "anchor": "Documentation",
-                    "href": "https://mintlify.com/docs",
-                    "icon": "book-open-cover"
-                },
-                {
-                    "anchor": "Community",
-                    "href": "https://mintlify.com/community",
-                    "icon": "slack"
-                },
-                {
-                    "anchor": "Blog",
-                    "href": "https://mintlify.com/blog",
-                    "icon": "newspaper"
-                }
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Introduction",
+  "colors": {
+    "primary": "#5550ff",
+    "light": "#5550ff",
+    "dark": "#5550ff"
+  },
+  "favicon": "/1de29ed6dd08440231b8155c4071c6939625ffa5952f8b41b6094d518a5a4de9-favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "GET STARTED",
+            "pages": [
+              "docs/introduction",
+              "docs/authorization",
+              "docs/rate-limits",
+              "docs/pagination",
+              "docs/filters",
+              "docs/sort",
+              "docs/oauth-2"
             ]
-        }
-    },
-    "logo": {
-        "light": "/logo/light.svg",
-        "dark": "/logo/dark.svg"
-    },
-    "navbar": {
-        "links": [
-            {
-                "label": "Support",
-                "href": "mailto:hi@mintlify.com"
-            }
-        ],
-        "primary": {
-            "type": "button",
-            "label": "Dashboard",
-            "href": "https://dashboard.mintlify.com"
-        }
-    },
-    "footer": {
-        "socials": {
-            "x": "https://x.com/mintlify",
-            "github": "https://github.com/mintlify",
-            "linkedin": "https://linkedin.com/company/mintlify"
-        }
-    }
+          },
+          {
+            "group": "GET STARTED",
+            "pages": [
+              "docs/introduction",
+              "docs/authorization",
+              "docs/rate-limits",
+              "docs/pagination",
+              "docs/filters",
+              "docs/sort",
+              "docs/oauth-2"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Dovetail Public API",
+            "pages": [
+              "reference/get_v1-token-info",
+              {
+                "group": "Authentication",
+                "pages": [
+                  "reference/get_v1-token-info"
+                ]
+              },
+              {
+                "group": "Search",
+                "pages": [
+                  "reference/post_v1-search"
+                ]
+              },
+              {
+                "group": "Summarize",
+                "pages": [
+                  "reference/post_v1-summarize"
+                ]
+              },
+              {
+                "group": "Channels",
+                "pages": [
+                  "reference/post_v1-channels"
+                ]
+              },
+              {
+                "group": "Projects",
+                "pages": [
+                  "reference/get_v1-projects"
+                ]
+              },
+              {
+                "group": "Data",
+                "pages": [
+                  "reference/get_v1-data"
+                ]
+              },
+              {
+                "group": "Files",
+                "pages": [
+                  "reference/get_v1-files-file-id"
+                ]
+              },
+              {
+                "group": "Highlights",
+                "pages": [
+                  "reference/get_v1-highlights"
+                ]
+              },
+              {
+                "group": "Tags",
+                "pages": [
+                  "reference/get_v1-tags"
+                ]
+              },
+              {
+                "group": "Insights",
+                "pages": [
+                  "reference/get_v1-insights"
+                ]
+              },
+              {
+                "group": "Contacts",
+                "pages": [
+                  "reference/get_v1-contacts-contact-id"
+                ]
+              },
+              {
+                "group": "Notes",
+                "pages": [
+                  "reference/get_v1-notes"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": "/images/5011eedf6b53c300ef96543cee14f7662b0a57c3531248efc39153e2cf3f6072-small-dvtl-logo-reverse.png"
 }
