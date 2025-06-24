@@ -1,6 +1,6 @@
 {
     "$schema": "https://mintlify.com/docs.json",
-    "theme": "linden",
+    "theme": "mint",
     "name": "Dovetail",
     "colors": {
         "primary": "#5550FF",
@@ -67,8 +67,8 @@
         }
     },
     "logo": {
-        "light": "/logo/light.svg",
-        "dark": "/logo/dark.svg"
+        "light": "/logo/dvtl-logo-fullcolor.svg",
+        "dark": "/logo/dvtl-logo-reverse.svg"
     },
     "navbar": {
         "links": [
