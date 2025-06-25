@@ -8,18 +8,42 @@
     "light": "/images/branding/logo/dvtl-logo-fullcolor.svg",
     "dark": "/images/branding/logo/dvtl-logo-reverse.svg"
   },
-  "icons": {"library":"lucide"},
+  "icons": { "library": "lucide" },
   "colors": {
     "primary": "#5550FF",
     "light": "#0C0C15",
     "dark": "#0C0C15"
   },
   "navigation": {
-    "dropdowns": [
+    "tabs": [
       {
-        "dropdown": "Dovetail Docs",
-        "icon": "book",
-        "description": "Get an overview of Dovetail's features",
+        "tab": "Help",
+        "groups": [
+          {
+            "group": "New to Dovetail",
+            "pages": ["help/new-to-dovetail/welcome-to-dovetail","help/new-to-dovetail/welcome-to-dovetail"]
+          },
+          {
+            "group": "Channels",
+            "pages": ["help/channels/channels","help/channels/channels"]
+          }
+        ]
+      },
+      {
+        "tab": "Academy",
+        "groups": [
+          {
+            "group": "New to Dovetail",
+            "pages": ["academy/getting-started-with-projects/lesson-1", "academy/getting-started-with-projects/lesson-2"]
+          },
+          {
+            "group": "Advancing your analysis",
+            "pages": ["academy/getting-started-with-projects/lesson-1"]
+          }
+        ]
+      },
+      {
+        "tab": "Integrations",
         "groups": [
           {
             "group": "New to Dovetail",
@@ -32,20 +56,16 @@
         ]
       },
       {
-        "dropdown": "Developers",
-        "icon": "code",
-        "description": "Developer tools and APIs",
-        "tabs": [
+        "tab": "Developer Docs",
+        "groups": [
           {
-            "tab": "Guides",
-            "groups": [
-              {
-                "group": "Getting started",
-                "pages": ["api-reference/introduction"]
-              }
-            ]
+            "group": "New to Dovetail",
+            "pages": ["help/new-to-dovetail/welcome-to-dovetail"]
+          },
+          {
+            "group": "Channels",
+            "pages": ["help/channels/channels"]
           }
-          
         ]
       }
     ]
@@ -82,6 +102,6 @@
       "href": "https://dashboard.mintlify.com"
     }
   },
-    "banner": {"content": "🚀 get minted!"},
-    "contextual": {"options": ["chatgpt", "claude"]}
+  "banner": { "content": "🚀 get minted!" },
+  "contextual": { "options": ["chatgpt", "claude"] }
 }
