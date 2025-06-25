@@ -68,15 +68,14 @@
       {
         "tab": "Developer Docs",
         "groups": [
-          {
-            "group": "New to Dovetail",
-            "pages": ["help/new-to-dovetail/welcome-to-dovetail"]
-          },
-          {
-            "group": "Channels",
-            "pages": ["help/channels/channels"]
+        {
+          "group": "Endpoints",
+          "openapi": {
+            "source": "/developer-docs/schema.json",
+            "directory": "/developer-docs/docs"
           }
-        ]
+        }
+      ]
       }
     ]
   },
