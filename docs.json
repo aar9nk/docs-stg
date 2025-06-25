@@ -8,7 +8,7 @@
         "dark": "/logo/dvtl-logo-reverse.svg"
     },
     "colors": {
-        "primary": "#0C0C15",
+        "primary": "#5550FF",
         "light": "#0C0C15",
         "dark": "#0C0C15"
     },
@@ -57,24 +57,24 @@
                 ]
             },
             {
-                "dropdown": "Dovetail Developers",
+                "dropdown": "Developers",
                 "icon": "code",
                 "description": "Developer tools and APIs",
                 "tabs": [
                     {
-                        "tab": "API reference",
+                        "tab": "Guides",
                         "groups": [
                             {
                                 "group": "Getting started",
                                 "pages": [
-                                    "api/authentication",
-                                    "api/overview"
+                                    "api/introduction",
+                                    "api/authorization"
                                 ]
                             }
                         ]
                     },
                     {
-                        "tab": "Webhooks",
+                        "tab": "API Reference",
                         "groups": [
                             {
                                 "group": "Manage events",
