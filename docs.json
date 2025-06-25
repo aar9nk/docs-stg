@@ -21,11 +21,14 @@
         "groups": [
           {
             "group": "New to Dovetail",
-            "pages": ["help/new-to-dovetail/welcome-to-dovetail","help/new-to-dovetail/welcome-to-dovetail"]
+            "pages": [
+              "help/new-to-dovetail/welcome-to-dovetail",
+              "help/new-to-dovetail/welcome-to-dovetail"
+            ]
           },
           {
             "group": "Channels",
-            "pages": ["help/channels/channels","help/channels/channels"]
+            "pages": ["help/channels/channels", "help/channels/channels"]
           }
         ]
       },
@@ -34,11 +37,14 @@
         "groups": [
           {
             "group": "New to Dovetail",
-            "pages": ["academy/getting-started-with-projects/lesson-1", "academy/getting-started-with-projects/lesson-2"]
+            "pages": [
+              "academy/getting-started-with-projects/lesson-1/index",
+              "academy/getting-started-with-projects/lesson-2/index"
+            ]
           },
           {
             "group": "Advancing your analysis",
-            "pages": ["academy/getting-started-with-projects/lesson-1"]
+            "pages": ["academy/getting-started-with-projects/lesson-1/index"]
           }
         ]
       },
@@ -46,12 +52,16 @@
         "tab": "Integrations",
         "groups": [
           {
-            "group": "New to Dovetail",
-            "pages": ["help/new-to-dovetail/welcome-to-dovetail"]
+            "group": "Import data",
+            "pages": ["integrations/app-store/index"]
           },
           {
-            "group": "Channels",
-            "pages": ["help/channels/channels"]
+            "group": "Share findings",
+            "pages": ["integrations/app-store/index"]
+          },
+          {
+            "group": "Automate workflows",
+            "pages": ["integrations/app-store/index"]
           }
         ]
       },
@@ -103,5 +113,10 @@
     }
   },
   "banner": { "content": "🚀 get minted!" },
-  "contextual": { "options": ["chatgpt", "claude"] }
+  "contextual": { "options": ["chatgpt", "claude"] },
+  "integrations": {
+    "intercom": {
+      "appId": "bt4e2pk6"
+    }
+  }
 }
