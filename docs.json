@@ -27,6 +27,7 @@
                                 "pages": [
                                     "index",
                                     "quickstart",
+                                    "api/introduction",
                                     "development"
                                 ]
                             },
