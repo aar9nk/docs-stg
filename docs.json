@@ -1,93 +1,131 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Dovetail",
-  "theme": "maple",
-  "favicon": "/favicon.svg",
-  "logo": {
-    "light": "/logo/dvtl-logo-fullcolor.svg",
-    "dark": "/logo/dvtl-logo-reverse.svg"
-  },
-  "colors": {
-    "primary": "#0C0C15",
-    "light": "#0C0C15",
-    "dark": "#0C0C15"
-  },
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Help docs",
-        "groups": [
-          {
-            "group": "New to Dovetail",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Channels",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
+    "$schema": "https://mintlify.com/schema.json",
+    "name": "Dovetail",
+    "theme": "maple",
+    "favicon": "/favicon.svg",
+    "logo": {
+        "light": "/logo/dvtl-logo-fullcolor.svg",
+        "dark": "/logo/dvtl-logo-reverse.svg"
+    },
+    "colors": {
+        "primary": "#0C0C15",
+        "light": "#0C0C15",
+        "dark": "#0C0C15"
+    },
+    "navigation": {
+        "dropdowns": [
+            {
+                "dropdown": "Dovetail Docs",
+                "icon": "book",
+                "description": "Get an overview of Dovetail's features",
+                "tabs": [
+                    {
+                        "tab": "Help docs",
+                        "groups": [
+                            {
+                                "group": "New to Dovetail",
+                                "pages": [
+                                    "index",
+                                    "quickstart",
+                                    "development"
+                                ]
+                            },
+                            {
+                                "group": "Channels",
+                                "pages": [
+                                    "essentials/markdown",
+                                    "essentials/code",
+                                    "essentials/images",
+                                    "essentials/settings",
+                                    "essentials/navigation",
+                                    "essentials/reusable-snippets"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tab": "Integrations",
+                        "groups": [
+                            {
+                                "group": "Import data",
+                                "pages": [
+                                    "integrations/emile"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "dropdown": "Dovetail Developers",
+                "icon": "code",
+                "description": "Developer tools and APIs",
+                "tabs": [
+                    {
+                        "tab": "API reference",
+                        "groups": [
+                            {
+                                "group": "Getting started",
+                                "pages": [
+                                    "api/authentication",
+                                    "api/overview"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "tab": "Webhooks",
+                        "groups": [
+                            {
+                                "group": "Manage events",
+                                "pages": [
+                                    "webhooks/setup",
+                                    "webhooks/events"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "tab": "Integrations",
-        "groups": [
-          {
-            "group": "Import data",
-            "pages": [
-              "integrations/emile"
-            ]
-          }
-        ]
-      }
-    ],
+    },
     "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+        "anchors": [
+            {
+                "anchor": "Documentation",
+                "href": "https://mintlify.com/docs",
+                "icon": "book-open-cover"
+            },
+            {
+                "anchor": "Community",
+                "href": "https://mintlify.com/community",
+                "icon": "slack"
+            },
+            {
+                "anchor": "Blog",
+                "href": "https://mintlify.com/blog",
+                "icon": "newspaper"
+            }
+        ]
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Support",
+                "href": "mailto:hi@mintlify.com"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Dashboard",
+            "href": "https://dashboard.mintlify.com"
         }
-      ]
+    },
+    "footer": {
+        "socials": {
+            "x": "https://x.com/mintlify",
+            "github": "https://github.com/mintlify",
+            "linkedin": "https://linkedin.com/company/mintlify"
+        }
     }
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
 }
