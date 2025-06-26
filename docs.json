@@ -53,15 +53,15 @@
         "groups": [
           {
             "group": "Import data",
-            "pages": ["integrations/app-store/index"]
+            "pages": ["integrations/app-store", "integrations/freshdesk", "integrations/front", "integrations/g2", "integrations/google-calendar",  "integrations/google-drive"]
           },
           {
             "group": "Share findings",
-            "pages": ["integrations/app-store/index"]
+            "pages": ["integrations/app-store"]
           },
           {
             "group": "Automate workflows",
-            "pages": ["integrations/app-store/index"]
+            "pages": ["integrations/app-store"]
           }
         ]
       },
