@@ -53,7 +53,14 @@
         "groups": [
           {
             "group": "Import data",
-            "pages": ["integrations/app-store", "integrations/freshdesk", "integrations/front", "integrations/g2", "integrations/google-calendar",  "integrations/google-drive"]
+            "pages": [
+              "integrations/app-store",
+              "integrations/freshdesk",
+              "integrations/front",
+              "integrations/g2",
+              "integrations/google-calendar",
+              "integrations/google-drive"
+            ]
           },
           {
             "group": "Share findings",
@@ -68,33 +75,14 @@
       {
         "tab": "Developer Docs",
         "groups": [
-        {
-          "group": "Endpoints",
-          "openapi": {
-            "source": "/developer-docs/schema.json",
-            "directory": "/developer-docs/docs"
+          {
+            "group": "Endpoints",
+            "openapi": {
+              "source": "/developer-docs/schema.json",
+              "directory": "/developer-docs/docs"
+            }
           }
-        }
-      ]
-      }
-    ]
-  },
-  "global": {
-    "anchors": [
-      {
-        "anchor": "Documentation",
-        "href": "https://mintlify.com/docs",
-        "icon": "book-open-cover"
-      },
-      {
-        "anchor": "Community",
-        "href": "https://mintlify.com/community",
-        "icon": "slack"
-      },
-      {
-        "anchor": "Blog",
-        "href": "https://mintlify.com/blog",
-        "icon": "newspaper"
+        ]
       }
     ]
   },
@@ -111,7 +99,6 @@
       "href": "https://dashboard.mintlify.com"
     }
   },
-  "banner": { "content": "🚀 get minted!" },
   "contextual": { "options": ["chatgpt", "claude"] },
   "integrations": {
     "intercom": {
