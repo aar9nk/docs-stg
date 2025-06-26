@@ -30,31 +30,7 @@ If an endpoint supports pagination, the response object structure will look like
 }
 ```
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Field",
-    "h-1": "Type",
-    "h-2": "Description",
-    "0-0": "page[total_count]",
-    "0-1": "number",
-    "0-2": "The total number of items contained in all pages. This number **may vary** as the client requests subsequent pages, owing to the possibility of new records being added or removed.",
-    "1-0": "page[has_more]",
-    "1-1": "boolean",
-    "1-2": "Indicates whether the page returned is the last one.",
-    "2-0": "page[next_cursor]",
-    "2-1": "string",
-    "2-2": "An opaque string usable for fetching the subsequent page of results by utilizing its value as the page[start_cursor] parameter in the same endpoint.  \nThis value is `null` when there is no more result to fetch."
-  },
-  "cols": 3,
-  "rows": 3,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+
 
 ### How to send a paginated request
 
