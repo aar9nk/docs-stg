@@ -1,0 +1,78 @@
+---
+title: "Google Play Store"
+og:image: "/images/integrations/google-play-store.png"
+og:description: "Connect your Google Play Store account to sync and track trends across app reviews in Channels."
+og:title: "Google Play Store"
+keywords: ["search","indexing"]
+---
+
+![Google Play Store Pn](/images/integrations/google-play-store.png)
+
+<Info>
+  👤 Available on [Professional and Enterprise plans](https://dovetail.com/pricing/)
+</Info>
+
+## Overview
+
+Automatically import Google Play store reviews into Channels in real-time, where they'll be automatically analyzed and classified into themes, allowing you to track trends over time.
+
+When setting up the connection, you'll have the option to select specific apps to sync reviews from, and you can also select how far back you'd like to import existing data from.
+
+[**Learn more about Channels →**](/help/channels/channels)
+
+---
+
+## Set up Google Play store integration
+
+You can set up your Google Play store integration from [Settings](https://dovetail.com/settings/integrations), when creating a new Channel, or want to `Add source` to an existing channel set up in your workspace.
+
+- To do this, set up your Channel and select `Google Play` in the Connect data source modal. This will require you to accept the required permissions, enter your developer name and select your apps.
+
+<Info>
+  If you are not a developer, you will need to ask your developer team to add your email to your organization's Google Console, with view app information permissions. You will then be able to authenticate with the Google Play store integration.
+</Info>
+
+---
+
+## Import reviews automatically to Channels
+
+Once you have connected your Google Play store account to Dovetail, you can sync reviews received in the Google Play store into a Channel where they will be automatically stored, analyzed, summarized and organized into themes.
+
+- To do this, set up your Channel and select `Google Play` in the Connect data source modal.
+- Next, select the apps you wish to sync reviews from and how far back you'd like to import existing data from.
+- From there, confirm set up and select `Finish`. Once complete, data from the Google Play store will start importing into your Channel and continue to sync new tickets into your Channel when received in the Google Play store.
+
+Along with the review comment itself, we will automatically sync in metadata related to the review if available. This includes `Reviewer name`, `Rating`, `Device`, `App version`, `Thumbs up count` and `Thumbs down count`, and` Reviewer language`.
+
+---
+
+<Accordion title="Why does Dovetail need broad permissions for Google Play?" icon="meh">
+  Dovetail uses the official Google Play Developer API, which only offers one permission scope:
+
+  `https://www.googleapis.com/auth/androidpublisher`
+
+  Even if you're just importing reviews, Google requires this full access scope.
+</Accordion>
+
+<Accordion title="Is there a way to limit what Dovetail can access?" icon="sparkles">
+  You have two options to further control our integration:
+
+  - **Creating a service account **and limiting its access in the Play Console.
+  - **Adding a user **with the right permissions and using their credentials.
+
+  Both options let you restrict access to only the apps you choose, and you can revoke it anytime.
+</Accordion>
+
+<Accordion title="Why doesn't Dovetail just scrape reviews?" icon="sparkles">
+  
+
+  Scraping Google Play violates their [terms of service](https://support.google.com/googleplay/android-developer/answer/9859152), can break without warning, and puts your app at risk. We stick to the official API to keep things secure and compliant.
+</Accordion>
+
+<Accordion title="What if I only want to import reviews and nothing else?" icon="sparkles">
+  Unfortunately, Google doesn’t offer more granular scopes at this time. If that changes, we’ll update our integration to match.
+</Accordion>
+
+<Accordion title="What if I have more technical questions about this integration?" icon="sparkles">
+  Reach out to our team at [support@dovetail.com](mailto:support@dovetail.com), and we'd be happy to talk through it with you and your team.
+</Accordion>
