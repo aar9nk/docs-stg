@@ -1,0 +1,117 @@
+---
+title: "Zapier"
+---
+
+![Zapier Pn](/images/integrations/zapier.png)
+
+## Overview
+
+Dovetail has partnered with [Zapier](https://zapier.com/) to enable you to connect the other tools you use, like Slack, Intercom, and Google Forms to your Dovetail account. Using our integration with Zapier, you can connect your Dovetail account to your Zapier account to unlock powerful workflows and automations with the thousands of apps on Zapier’s platform.
+
+---
+
+## How it works
+
+Zapier lets you connect apps together and move data around using automated workflows called Zaps.
+
+Our Zapier integration has one Trigger and one Action to help you move data between Dovetail and other apps you use. Zapier allows you to design workflows based on triggers and actions that happen in Dovetail and other apps and tools.
+
+For example, if you receive a new survey response in _Google Form_, this can be used to automatically create a _New note_ within a project. This note will contain all text content from the survey response.
+
+Zapier has thousands of apps, so check out their [directory](https://zapier.com/apps/integrations) and search for the apps you use.
+
+---
+
+## Set up Zapier integration
+
+You can connect your Zapier account to your Dovetail account under [Integrations](https://dovetail.com/settings/user/integrations) in ⚙️ Settings. From there, you will be directed to Zapier’s website to connect and Authorize access to create content in Dovetail.
+
+If you do not have an existing Zapier account, visit [Zapier’s website](https://zapier.com/pricing) for more information.
+
+## Zapier actions
+
+Actions help you get data into Dovetail from other apps. For example, you could create notes from SurveyMonkey responses, connect an NPS tool like Delighted or AskNicely and create a note for each NPS response, or add people via a Google Form.
+
+### Create Insight
+
+Creates a new insight in a Dovetail project.
+
+| Input field                      | Type                    | Description                                                                                             |
+| :------------------------------- | :---------------------- | :------------------------------------------------------------------------------------------------------ |
+| Project                          | UUID (selected in menu) | Project where the insight should be created. Required.                                                  |
+| Title                            | Plain text              | The title of the insight. Title will be ‘Untitled insight’ if a title is not set.                       |
+| Content                          | Plain text or HTML      | The HTML content of the insight. Content will be empty if the content is not set.                       |
+| Append content if insight exists | Boolean                 | Whether to append new content to the end if a insight already exists with this title. Default is false. |
+| Custom fields                    | Variable                | Your custom insight fields.                                                                             |
+
+### Create Note
+
+Creates a new note in a Dovetail project.
+
+| Input field                   | Type                    | Description                                                                                            |
+| :---------------------------- | :---------------------- | :----------------------------------------------------------------------------------------------------- |
+| Project                       | UUID (selected in menu) | Project where the note should be created. Required.                                                    |
+| Title                         | Plain text              | The title of the note. Title will be ‘Untitled note’ if a title is not set.                            |
+| Content                       | Plain text or HTML      | The HTML content of the note. Content will be empty if the content is not set.                         |
+| Analyze sentiment             | Boolean                 | Whether to automatically tag sentences in the content with ‘Positive’ or ‘Negative’. Default is false. |
+| Append content if note exists | Boolean                 | Whether to append new content to the end if a note already exists with this title. Default is false.   |
+| Custom fields                 | Variable                | Your custom note fields.                                                                               |
+
+### Create Person
+
+Creates a new person in Dovetail.
+
+| Input field   | Type       | Description                          |
+| :------------ | :--------- | :----------------------------------- |
+| Name          | Plain text | The name or pseudonym of the person. |
+| Custom fields | Variable   | Your custom person fields.           |
+
+---
+
+## Zapier triggers
+
+Triggers help you get data out of Dovetail and into other apps. For example, you could post published insights to a Slack room, save them in Trello, or add them to an Airtable database.
+
+### New Insight
+
+Triggers when a new insight is published.
+
+| Response field   | Type       | Description                                                            |
+| :--------------- | :--------- | :--------------------------------------------------------------------- |
+| Abstract         | Plain text | The first 200 characters of the insight content. Can be empty or null. |
+| Cover image      | URL        | The URL for the cover image, if the cover image is set. Can be null.   |
+| Created          | Date       | The date the insight was created.                                      |
+| ID               | UUID       | The unique ID of the insight.                                          |
+| Presentation URL | URL        | A direct URL to the presentation mode of the insight.                  |
+| Project          | Plain text | The title of the project, or ‘Untitled project’ if not set.            |
+| Published        | Boolean    | Whether the insight is published or not.                               |
+| Title            | Plain text | The title of the insight, or ‘Untitled insight’ if not set.            |
+| URL              | URL        | A direct URL to the insight.                                           |
+
+---
+
+## Import data into Dovetail
+
+To import data into a project, start by creating a Zap within your Zapier account. In this Zap, select the Trigger app and event. This is the app where the data will be coming from and what needs to occur in this app first.
+
+For example, you could select app _Google Forms_ and event _New Form Response_.
+
+From there, you will be directed to set the Action app and event. This is where you determine what you want create your data as in Dovetail. Depending on the Trigger app selected, actions you can choose are _Create note_, _Create insight_ or _Create person_.
+
+For example, for our _New Form Response_, we will select _Create Note_ as our Action event.
+
+The note/s that we’ll create will also need to be housed within a project, require a title and content. Insert this data directly from _Google Forms_ by selecting options from the dropdown menu.
+
+Once you’ve completed set up, test your Zap to ensure it is successful before turning on.
+
+---
+
+## Export data from Dovetail
+
+To export data from Dovetail, select Dovetail as the Trigger app and select an event. For example, when a _New Insight_ is created in Dovetail.
+
+As notes and insights are housed in projects, select a specific project for the trigger event, or leave the project field blank for this Zap to trigger when a new insight is published in any project.
+
+Once you’ve finished setting up the trigger, select your Action App and event. This is the app where you want your Dovetail data to go. The Action events available will depend on the specific app selected.
+
+For example, you could push a _New insight_ into a specific Slack channel. This will create a message with a direct link to your insight.

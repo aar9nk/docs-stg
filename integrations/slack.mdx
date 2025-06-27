@@ -1,0 +1,185 @@
+---
+title: "Slack"
+---
+
+![Slack Pn](/images/integrations/slack.png)
+
+## Overview
+
+Connecting your Slack to Dovetail enables you to sync messages to [Channels](https://dovetail.com/help/channels/), share Dovetail content with rich previews, get updates about changes in your projects, receive comments in real-time, and send replies — all via Slack.
+
+With this, Enterprise customers can also purchase Ask Dovetail as an add-on to bring the voice of their customers to where decisions are made. It allows anyone in an organization to ask Dovetail questions in Slack, access your aggregated customer feedback and schedule audio or text digests.
+
+---
+
+## Set up Slack integration
+
+<Note>
+  If you are setting up the Slack integration for the first time, there are a few things to be aware of including:
+
+  1. It's common that Slack workspace owners may have [turned on app approval](https://slack.com/help/articles/222386767-Manage-app-approval-for-your-workspace) to require admin approval for installing new apps, including Dovetail. If this is the case for your Slack workspace, we recommend seeking approval from your internal IT team and sharing this article to provide an outline of the integration's capability and [requested permissions](https://dovetail.com/help/integrations/slack/#requested-permissions).
+  2. If using Ask Dovetail in Slack, only users with a Dovetail admin role can enable the integration in Dovetail. Non-admin users will not be able to view or configure the integration.
+</Note>
+
+If Dovetail is an approved app for your Slack workspace, you can connect your Slack account to receive notifications, share data, and engage with comments from your Dovetail workspace.
+
+- To do this, open ⚙️ [Settings → Integrations](https://dovetail.com/settings/user/integrations) and navigate to Slack.
+- From there, select Connect and continue to log in to your Slack account and review the requested permissions.
+
+---
+
+## Reply to and like comments in Slack
+
+If someone mentions you in a comment, you can reply and like that comment directly in Slack.
+
+- To like (or dislike) a comment, just click on the Like button.
+- To reply to a comment, click on Reply and enter your comment in the pop-up window, which will be sent directly to Dovetail once you click Post.
+
+---
+
+## Share Dovetail data in Slack
+
+When you share a link to a single video highlight or reel in Slack, the video will be available for your team to play right from Slack.
+
+If you are using the desktop or mobile app to play the highlight, you'll need to authenticate first.
+
+- To do this, copy the link provided in the player and paste it into your browser to log in to Dovetail
+- From there, copy the one-time password (OTP) and enter this into the box in Slack.
+
+When you share a Dovetail link in Slack, all the relevant information related to the link will be displayed directly in Slack for you and your colleagues to see. The supported links are notes, tags, insights, readme, and people.
+
+---
+
+## Sync Slack messages to Channels
+
+Bring the voice of the customer directly into Dovetail by connecting your internal Slack channels to [Channels](https://dovetail.com/help/channels/). With a one-time setup, Dovetail will continuously sync messages from public Slack channels and use AI to automatically classify and organize feedback into themes, no more copy-pasting required.
+
+To do this:
+
+- Connect Slack: A workspace admin connects Slack from the Integrations tab in Dovetail. During setup, you'll complete authentication and choose which Slack channels should be available for use. Note: You can only connect one Slack workspace to one Dovetail workspace.
+- Connect a data source: In your Channel, click Connect data source, then select Slack from the list of available integrations.
+- Configure what to analyze: Choose the Slack channel you want to analyze, and select a time period—7 days, 30 days, 90 days, or 6 months. Dovetail will pull messages from that channel based on your selection.
+- Review and analyze in Dovetail: Your Slack messages will be imported as data points. Dovetail will automatically analyze the content and identify recurring themes. You can open any individual data point to view a summary of the Slack message and see the full conversation thread for added context.
+
+#### What’s included in each message
+
+- The message text and up to 20 replies
+- Number of reactions
+- Number of replies and unique reply users
+- User ID and username
+- Timestamps and thread context
+
+---
+
+## Set up Ask Dovetail for Slack
+
+<Note>
+  This feature is only available as an add-on to our **Enterprise** bundle. Enterprise workspaces come with additional features and support to meet your organization’s needs.
+
+  [Check out our pricing page for more information on Enterprise](https://dovetailapp.com/pricing/).
+</Note>
+
+[Ask Dovetail](https://dovetail.com/help/ask-dovetail/) can be enabled by a Dovetail workspace admin after connecting the Slack integration in your workspace.
+
+- To do this, navigate [Settings → Integrations → Slack](https://dovetail.com/settings/user/integrations) and toggle on Ask Dovetail. Depending on your organization's configuration, Slack may ask you to provide a reason for the integration and submit a request to your Slack administrator.
+- Once the integration is enabled, select which projects and data you want to appear cited in search results or digests within Slack. All public projects are available by default, but admins can select which projects to exclude. Private projects are not accessible to Ask Dovetail. You can also prevent certain object types from contributing to search results, or being cited as sources in answers.
+- Once your Slack workspace is connected with your Dovetail workspace, anyone in your Slack workspace will be able to ask questions and create digests.
+
+---
+
+## Ask questions to Dovetail in Slack
+
+There are two main ways to ask questions to Dovetail in a Slack channel – Public or Only visible to you.
+
+To ask a question that will be public and visible to others, type @dovetail followed by your search question.
+
+- For example – `@dovetail what are our users’ top pain points?`
+
+Your search query will instantly be posted, and Dovetail will respond in a thread. An example of a query you can search.
+
+Alternatively, to ask a question and receive a response from Dovetail that will only be visible to you, type `/dovetail` followed by your search question.
+
+- For example – `/dovetail what are our users’ top pain points?`
+
+This method will bring up a response that is only visible to you, giving you a chance to review it and either post it for everyone else to see, or to delete it.
+
+Where relevant, Dovetail will provide citations in the response, allowing users to trace evidence back to data within Dovetail. For anyone without a Dovetail account, they will be required to sign up before viewing any data in your Dovetail workspace.
+
+---
+
+## Create a scheduled digest
+
+Stay up to date with ongoing project work by scheduling recurring audio or written digests that you can receive in Slack. They’re a way to effortlessly stay up to date with new information coming into your workspace.
+
+- To create a digest, use the slash command `/dovetail digest` which will open a popup for you to configure.
+- Here, you can choose a title, decide which projects you’d like to receive updates from, what Slack channel you’d like to send this digest to, set the format (audio or text) and frequency (weekly, fortnightly, monthly).
+
+Additionally, you can create a digest directly from a search query.
+
+- Once you receive a response to your question, select “Follow search”.
+- From there, you can configure the digest as described above.
+
+Digests are managed on a per-user basis on Slack, so when you create one, only you can edit or delete that digest. To edit or delete a digest you have created, navigate to the Dovetail Slack app home page to locate your digest.
+
+---
+
+## Use Ask Dovetail as a Slack AI Assistant
+
+Ask Dovetail is also available as a Slack AI assistant. With this, you can open a private thread in any channel to query Dovetail and answers provided will combine the data in your Dovetail workspace with any relevant knowledge in your Slack instance.
+
+Ask Dovetail users have instant access to the AI assistant and can perform any Ask Dovetail actions. If not, check that you have Dovetail enabled by navigating to Preferences → Navigation in your Slack workspace.
+
+- To use Ask with the AI assistant, open a thread in a relevant channel and select the Dovetail icon from your AI Assistant menu in Slack (note that this will only work in channels that have the Dovetail integration added).
+- From there, you can perform a query, ask follow up questions, and create digests in the same way as described above.
+
+Note that using the AI assistant is available to Ask Dovetail users who are on a paid Slack plan. Additionally, using Ask Dovetail as a Slack AI Assistant is subject to our current [privacy policy](https://dovetail.com/help/privacy-policy/).
+
+---
+
+## Manage your Slack connection
+
+### Notifications
+
+You can stop receiving notifications in Slack. To do this, go to ⚙️ Settings → [Notifications](https://dovetailapp.com/settings/user/notifications). From there, you can then turn the Slack notifications `on` or `off`.
+
+### Disconnect
+
+You can disconnect your Slack account from Dovetail at any time. To do this, go to ⚙️ Settings → [Integrations](https://dovetailapp.com/settings/user/integrations), locate Slack in the integrations list, and select Disconnect.
+
+---
+
+## Restrict Slack connections to authorized subdomains
+
+Admins can allowlist specific Slack subdomains users can connect their Dovetail account to. By restricting the Slack integration to authorized subdomains, admins can ensure that only approved workspaces can be linked. This helps mitigate the risk of sensitive information being unintentionally shared with external or unauthorized environments.
+
+- To do this, open [⚙️ Settings → Integrations → Slack](https://dovetail.com/settings/user/integrations).
+- From there, click the actions menu `···` , select Security settings, then enter authorized subdomains users can use to connect their Slack integration to.
+
+---
+
+## Requested permissions
+
+When you connect your Slack account to Dovetail, you will grant Dovetail access to:
+
+- View content and info about channels & conversations — View messages and other content in direct messages that Dovetail has been added to.
+- View content and info about your workspace — View people in your workspace and view the name, email domain, and icon for workspaces Dovetail is connected.
+- Perform actions in channels & conversations — Send messages as @dovetail, embed video player URLs and show link previews from [dovetailapp.com](http://dovetailapp.com) and [dovetail.com](http://dovetail.com), join public channels in your workspace, view messages that directly mention `@dovetail` in conversations that the app is in.
+- Perform actions in your workspace — Add the slash command `/dovetail` that people can use.
+
+## FAQs
+
+<Accordion title="Important information about the Dovetail Slack app and AI features">
+  We will never perform unexpected actions, such as joining all public channels by default or taking actions, unless prompted by the user.
+
+  Ask Dovetail (available as an add-on to the base Dovetail Slack app) uses AI and large language models (LLM). Please note that responses generated may occasionally be inaccurate. We encourage you to verify any AI-generated content before relying on it. The AI model we use is Claude 3 Sonnet.
+
+  ### Data Retention
+
+  We only keep your data on our servers while your request is being processed, which will be done in the region of your Dovetail workspace. Your Slack data is used solely for conversational search and is processed within the LLM environment.
+
+  ### What We Don’t Do
+
+  We don't use your Slack data (messages, files, etc.) to train or improve any AI models.
+
+  We are committed to ensuring a secure and transparent experience for all users. If you have any questions or concerns, feel free to reach out at [support@dovetail.com](mailto:support@dovetail.com).
+</Accordion>

@@ -1,0 +1,143 @@
+---
+title: "Microsoft Teams"
+---
+
+![Microsoft Teams Pn](/images/integrations/microsoft-teams.png)
+
+## Overview
+
+Connecting your Microsoft Teams to Dovetail enables you to share Dovetail content with rich previews, get updates about changes in your projects and receive comments in real-time all via Microsoft Teams as well as automatically importing your video calls into Dovetail.
+
+With this, Enterprise customers can also purchase Ask Dovetail as an add-on to bring the voice of their customers to where decisions are made. It allows anyone in an organization to use conversational UI to ask questions in Teams, access your aggregated customer feedback, and schedule audio or text digests.
+
+---
+
+## Set up Teams integration
+
+<Note>
+  If you are setting up the Teams integration for the first time, there are a few things to be aware of including:
+
+  1. It's common that Teams workspace owners may have [turned on app approval](https://learn.microsoft.com/en-us/microsoftteams/teams-app-permission-policies) to require admin approval for installing new apps, including Dovetail. If this is the case for your Teams workspace, we recommend seeking approval from your internal IT team and sharing this article to provide an outline of the integration's capability and [requested permissions](https://dovetail.com/help/integrations/microsoft-teams/#requested-permissions).
+  2. If using Ask Dovetail in Teams, only users with a Dovetail admin role can enable the integration in Dovetail. Non-admin users will not be able to view or configure the integration.
+</Note>
+
+If Dovetail is an approved app for your Teams workspace, you can connect your Teams account to receive notifications, share data, and engage with comments from your Dovetail workspace.
+
+- To connect your Teams account to Dovetail, select ⚙️ [Settings → Integrations](https://dovetail.com/settings/user/integrations) in the sidebar and navigate to Microsoft Teams in the integrations list
+- From there, select `Connect` and toggle on Product notifications. To confirm the connection, you will then be prompted to log in to your Microsoft Teams account and review requested permissions.
+
+If you get an error saying 'No organization found for this Microsoft Teams account', this means you've tried to integrate with a personal Microsoft account which our app does not support.
+
+---
+
+## Set up to import Teams recordings
+
+Connecting Teams along with your Outlook Calendar accounts means you'll no longer need to import recorded meetings manually. You can configure which calendar you'd like to pull event recordings from, define any keywords that meeting titles must contain, and select which project you'd like events to be imported into.
+
+- To do this, navigate to [Settings → Integrations](https://dovetail.com/settings/integrations) and click on `Outlook Calendar`.
+- Click `Connect` and sign in/select the Microsoft account that you wish to authenticate.
+- From there, select your video source as Microsoft Teams and continue to authenticate.
+- Once you have authenticated your Teams source, select your desired calendar, and project that you want your Teams recordings to be imported to, and press `Save`.
+
+<Warning>
+  There may be times that your internal Microsoft Teams Workspace has settings preventing the integration from being able to access the Teams authentication. To troubleshoot this, you will have to contact your Teams admin or IT department first to ensure that the Dovetail integration is on the "allow" list.
+</Warning>
+
+---
+
+## Share content in Microsoft Teams
+
+When you share a Dovetail link in Microsoft Teams, all the relevant information related to the link will be displayed directly in Microsoft Teams for you and your colleagues to see.
+
+The supported links are notes, highlights, tags, insights, project readme, and people.
+
+#### Share a highlight
+
+When you share a highlight, you will also get a video embed of the highlight that your team can play right from Microsoft Teams.
+
+If you are using the desktop or mobile app, to play the highlight you'll need to go through an authentication flow.
+
+- To do this, copy the link provided, paste it into your browser, and login to Dovetail.
+- From there, copy the one-time password (OTP) then enter the OTP in Microsoft Teams.
+
+---
+
+## Set up Ask Dovetail for Teams
+
+<Note>
+  This feature is only available as an add-on to our **Enterprise** bundle. Enterprise workspaces come with additional features and support to meet your organization’s needs.
+
+  [Check out our pricing page for more information on Enterprise](https://dovetailapp.com/pricing/).
+</Note>
+
+[Ask Dovetail](https://dovetail.com/help/ask-dovetail/) can be enabled by a workspace admin after connecting the Teams integration in your workspace.
+
+- To do this, navigate [Settings → Integrations → Teams](https://dovetail.com/settings/user/integrations) and toggle on Ask Dovetail. Depending on your organization's configuration, Teams may ask you to provide a reason for the integration and submit a request to your Teams administrator.
+- Once the integration is enabled, select which projects and data you want to appear cited in search results or digests within teams. All public projects are available by default, but admins can select which projects to exclude. Private projects are not accessible to Ask Dovetail. You can also prevent certain object types from contributing to search results, or being cited as sources in answers.
+- Once your Teams workspace is connected with your Dovetail workspace, anyone in your Teams workspace will be able to ask questions and create digests.
+
+---
+
+## Ask questions to Dovetail in Teams
+
+There are two main ways to ask questions to Dovetail in Teams – by mentioning the Dovetail app a channel or group chat, or in a DM with the app.
+
+To ask a question, first add the bot to the group chat or channel.
+
+- In a chat, click on the people icon in the top right corner, click `Add agents and bots`, and select`Dovetail`.
+- In a channel, type `@` into the text box, click `Get bots`, then select `Dovetail`.
+
+Once Dovetail has been added, type @Dovetail followed by your search question.
+
+- For example – `@Dovetail what are our users’ top pain points?`
+
+Your search query will instantly be posted, and Dovetail will respond. When messaging the Dovetail app directly, you do not need to mention the app.
+
+Where relevant, Dovetail will provide citations in the response, allowing users to trace evidence back to data within Dovetail. For anyone without a Dovetail account, they will be required to sign up before viewing any data in your Dovetail workspace.
+
+---
+
+## Create a scheduled digest
+
+Stay up to date with ongoing project work by scheduling recurring audio or written digests that you can receive in Teams. They’re a way to effortlessly stay up to date with new information coming into your workspace.
+
+- To create a digest, type `create-digest`either in a DM, group chat, or direct message with the Dovetail app
+- Next, you will then be sent a message by the Dovetail app containing a digest card for you to configure.
+- From there, you can choose a title, decide which projects you’d like to receive updates from, what Teams channel you’d like to send this digest to, set the format (audio or text) and frequency (weekly, fortnightly, monthly).
+
+Additionally, you can create a digest directly from a search query.
+
+- Once you receive a response to your question, select `Follow search`.
+- From there, you can configure the digest as described above.
+
+Digests are managed on a per-user basis on Teams, so when you create one, only you can edit or delete that digest. Users can have a maximum of 10 each.
+
+- To edit or delete a digest you have created, type `manage-digests` to see all your digests and select `Delete` on the digest you want to remove.
+
+---
+
+## Manage your Microsoft Teams connection
+
+You can update how you receive notifications or disconnect Teams from Dovetail any time in settings.
+
+- To update notifications, open Dovetail, select ⚙️ [Settings → Notifications](https://dovetail.com/settings/user/notifications) and click click `•••` next to Microsoft Teams.
+- From there, you can enable turn the Microsoft Teams notifications `on` or `off`.
+
+You can disconnect your Teams account at any time in Settings. When you disconnect Dovetail, we will no longer have access to your Teams recordings or your Teams user information. Any recordings that you have imported into Dovetail before disconnecting will not be deleted and will remain in Dovetail.
+
+- To disconnect Dovetail from your Teams account, select ⚙️ [Settings → Integrations](https://dovetail.com/settings/user/integrations) in the sidebar.
+- From there, navigate to Microsoft Teams in the integrations list and select Disconnect.
+
+---
+
+## Requested permissions
+
+When you connect your Microsoft Teams account to Dovetail, you will grant Dovetail access to:
+
+- **Read your organization's app catalog** — Allows us to find the internal ID of our Microsoft Team's app.
+- \*\*Read and write our Microsoft Team's app for a user \*\*— Allows us to install our Microsoft Team's app for the user, as well as retrieving the installation ID used to retrieve the conversation ID.
+- **Access profile information** — Allows us to view user's name, email address, organization name, and preferred language.
+- **Receive messages and data** — Limited to what the user provides in a channel or a chat.
+- Send messages and notifications — Allows for notifications in both a channel or chat.
+- **Access team or chat information** — Allows us to view team or chat name, channel list and roster (including team or chat member's names and email addresses), and use this information to contact them.
+- **Offline access** — Allows us to regenerate user's authorization via a refresh token.
