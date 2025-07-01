@@ -14,6 +14,9 @@
     "light": "#0C0C15",
     "dark": "#0C0C15"
   },
+  "react": {
+    "enabled": true
+  },
   "navigation": {
     "tabs": [
       {
@@ -91,6 +94,10 @@
       {
         "label": "Trust center",
         "href": "mailto:ross@dovetail.com"
+      },
+      {
+        "label": "Status",
+        "href": "https://status.dovetail.com"
       }
     ],
     "primary": {
@@ -103,6 +110,9 @@
   "integrations": {
     "intercom": {
       "appId": "bt4e2pk6"
+    },
+    "segment": {
+      "key": "rjOOogDxGEr5RLlWefVcehAPC9av7QeN"
     }
   }
 }
