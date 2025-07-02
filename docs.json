@@ -131,6 +131,88 @@
           }
         ]
       },
+             {
+         "tab": "Academy",
+         "groups": [
+           {
+             "group": "Advancing Your Analysis",
+             "pages": [
+               "advancing-your-analysis/index",
+               "advancing-your-analysis/analyze-different-data-types/index",
+               "advancing-your-analysis/create-and-maintain-tag-boards/index",
+               "advancing-your-analysis/segment-your-data-with-fields/index"
+             ]
+           },
+           {
+             "group": "Answering Your Questions With Dovetail",
+             "pages": [
+               "answering-your-questions-with-dovetail/index",
+               "answering-your-questions-with-dovetail/engage-your-team-to-inform-decisions/index",
+               "answering-your-questions-with-dovetail/self-serve-customer-insights-with-dovetail/index",
+               "answering-your-questions-with-dovetail/start-exploring-your-insights-hub/index"
+             ]
+           },
+           {
+             "group": "Crafting Shareable Findings",
+             "pages": [
+               "crafting-shareable-findings/index",
+               "crafting-shareable-findings/create-your-first-insight/index",
+               "crafting-shareable-findings/make-your-insight-digestible/index",
+               "crafting-shareable-findings/present-your-insight-customer-love/index",
+               "crafting-shareable-findings/summarize-findings-as-insights/index"
+             ]
+           },
+           {
+             "group": "Enabling Your Team",
+             "pages": [
+               "enabling-your-team/index",
+               "enabling-your-team/audit-workspace-tags/index",
+               "enabling-your-team/connect-themes-with-workspace-tags/index",
+               "enabling-your-team/craft-your-team-taxonomy/index",
+               "enabling-your-team/create-project-template-for-customer-interviews/index",
+               "enabling-your-team/organize-projects-with-folders/index",
+               "enabling-your-team/prepare-to-onboard-your-team/index",
+               "enabling-your-team/segment-data-with-workspace-fields/index",
+               "enabling-your-team/standardize-projects-with-templates/index"
+             ]
+           },
+           {
+             "group": "Getting Started With Projects",
+             "pages": [
+               "getting-started-with-projects/index",
+               "getting-started-with-projects/advance-your-customer-analysis/index",
+               "getting-started-with-projects/create-your-first-note/index",
+               "getting-started-with-projects/meet-your-first-project/index",
+               "getting-started-with-projects/start-highlighting-key-moments/index",
+               "getting-started-with-projects/surface-an-insight-customer-love/index",
+               "getting-started-with-projects/view-your-data-in-different-ways/index"
+             ]
+           },
+           {
+             "group": "Managing Your Insights Hub",
+             "pages": [
+               "managing-your-insights-hub/index",
+               "managing-your-insights-hub/assign-access-to-content-across-the-workspace/index",
+               "managing-your-insights-hub/bring-your-team-in/index",
+               "managing-your-insights-hub/customize-home-for-the-stakeholder-experience/index",
+               "managing-your-insights-hub/enforce-data-retention-periods/index",
+               "managing-your-insights-hub/streamline-authentication-to-dovetail/index"
+             ]
+           }
+         ]
+       },
+       {
+         "tab": "Developer Docs",
+         "groups": [
+           {
+             "group": "Endpoints",
+             "openapi": {
+               "source": "/developer-docs/schema.json",
+               "directory": "/developer-docs/docs"
+             }
+           }
+         ]
+       },
       {
         "tab": "Integrations",
         "groups": [
