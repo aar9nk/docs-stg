@@ -14,37 +14,120 @@
     "light": "#0C0C15",
     "dark": "#0C0C15"
   },
+  "react": {
+    "enabled": true
+  },
   "navigation": {
     "tabs": [
       {
         "tab": "Help",
         "groups": [
           {
-            "group": "New to Dovetail",
+            "group": "Billing And Payment",
             "pages": [
-              "help/new-to-dovetail/welcome-to-dovetail",
-              "help/new-to-dovetail/welcome-to-dovetail"
+              "/help/billing-and-payment/dovetail-buyers-guide/index",
+              "/help/billing-and-payment/how-to-pay-for-dovetail/index",
+              "/help/billing-and-payment/our-organization-contact-details/index",
+              "/help/billing-and-payment/referral-program/index",
+              "/help/billing-and-payment/taxes/index",
+              "/help/billing-and-payment/update-your-subscription/index"
             ]
           },
           {
             "group": "Channels",
-            "pages": ["help/channels/channels", "help/channels/channels"]
-          }
-        ]
-      },
-      {
-        "tab": "Academy",
-        "groups": [
-          {
-            "group": "New to Dovetail",
             "pages": [
-              "academy/getting-started-with-projects/lesson-1/index",
-              "academy/getting-started-with-projects/lesson-2/index"
+              "/help/channels/channels/index",
+              "/help/channels/import-data-to-channels/index"
             ]
           },
           {
-            "group": "Advancing your analysis",
-            "pages": ["academy/getting-started-with-projects/lesson-1/index"]
+            "group": "Enterprise Admin",
+            "pages": [
+              "/help/enterprise-admin/configure-single-sign-on-sso/index",
+              "/help/enterprise-admin/custom-data-retention/index",
+              "/help/enterprise-admin/organize-users-into-groups/index",
+              "/help/enterprise-admin/scim-overview/index",
+              "/help/enterprise-admin/security-information/index",
+              "/help/enterprise-admin/video-redaction/index",
+              "/help/enterprise-admin/viewing-workspace-analytics/index"
+            ]
+          },
+          {
+            "group": "Find And Discover",
+            "pages": [
+              "/help/find-and-discover/ask-dovetail/index",
+              "/help/find-and-discover/contextual-chat/index",
+              "/help/find-and-discover/search-and-discover/index"
+            ]
+          },
+          {
+            "group": "New To Dovetail",
+            "pages": [
+              "/help/new-to-dovetail/dovetail-ai/index",
+              "/help/new-to-dovetail/how-dovetail-is-organized/index",
+              "/help/new-to-dovetail/welcome-to-dovetail/index"
+            ]
+          },
+          {
+            "group": "Organize Projects",
+            "pages": [
+              "/help/organize-projects/add-structured-data-with-fields/index",
+              "/help/organize-projects/create-and-update-views-in-projects/index",
+              "/help/organize-projects/create-reusable-project-templates/index",
+              "/help/organize-projects/how-to-use-canvas-layout/index",
+              "/help/organize-projects/tag-across-projects-with-workspace-tags/index",
+              "/help/organize-projects/tag-boards-groups/index",
+              "/help/organize-projects/visualize-your-highlights-using-charts/index"
+            ]
+          },
+          {
+            "group": "Projects",
+            "pages": [
+              "/help/projects/an-overview-of-projects/index",
+              "/help/projects/highlight-and-tag-project-content/index",
+              "/help/projects/manage-people-database/index",
+              "/help/projects/recruit/index",
+              "/help/projects/take-notes-and-upload-data/index",
+              "/help/projects/transcribe-and-translate/index"
+            ]
+          },
+          {
+            "group": "Share And Collaborate",
+            "pages": [
+              "/help/share-and-collaborate/comment-and-mention-others/index",
+              "/help/share-and-collaborate/organize-projects-and-folders/index",
+              "/help/share-and-collaborate/share-insights-with-public-access/index",
+              "/help/share-and-collaborate/sharing-and-access-control/index",
+              "/help/share-and-collaborate/transfer-projects-between-workspaces/index",
+              "/help/share-and-collaborate/user-profiles/index",
+              "/help/share-and-collaborate/workspace-roles/index"
+            ]
+          },
+          {
+            "group": "Summarize And Present",
+            "pages": [
+              "/help/summarize-and-present/curate-and-share-highlights-with-reels/index",
+              "/help/summarize-and-present/download-project-data/index",
+              "/help/summarize-and-present/edit-and-format/index",
+              "/help/summarize-and-present/embedding-links-in-the-editor/index",
+              "/help/summarize-and-present/summarizing-your-data/index"
+            ]
+          },
+          {
+            "group": "Workspace Settings",
+            "pages": [
+              "/help/workspace-settings/account-settings/index",
+              "/help/workspace-settings/belong-to-multiple-workspaces/index",
+              "/help/workspace-settings/beta-features/index",
+              "/help/workspace-settings/bulk-import-settings/index",
+              "/help/workspace-settings/configure-and-view-notifications/index",
+              "/help/workspace-settings/customize-your-workspace/index",
+              "/help/workspace-settings/enable-domain-restricted-sign-up/index",
+              "/help/workspace-settings/integration-settings/index",
+              "/help/workspace-settings/restore-deleted-things-from-trash/index",
+              "/help/workspace-settings/security-settings/index",
+              "/help/workspace-settings/technical-limits/index"
+            ]
           }
         ]
       },
@@ -91,6 +174,10 @@
       {
         "label": "Trust center",
         "href": "mailto:ross@dovetail.com"
+      },
+      {
+        "label": "Status",
+        "href": "https://status.dovetail.com"
       }
     ],
     "primary": {
@@ -103,6 +190,9 @@
   "integrations": {
     "intercom": {
       "appId": "bt4e2pk6"
+    },
+    "segment": {
+      "key": "rjOOogDxGEr5RLlWefVcehAPC9av7QeN"
     }
   }
 }
